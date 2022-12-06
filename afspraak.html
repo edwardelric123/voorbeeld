@@ -1,0 +1,98 @@
+<!DOCtype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Huiswerkles 7</title>
+</head>
+<body>
+  <h1>Tandartsafspraak</h1>
+  <p>Welkom bij bij Tandarts Cynthia, gelegen aan de Cynthialaan. Bij ons kunt u terecht voor periodieke controle, preventie, mondhygiëne, implantaten en kindertandheelkunde.
+Wat ons betreft vormen persoonlijke aandacht en heldere communicatie de basis van elke behandeling. Samen met u doen we er alles aan om uw gebit mooi en gezond te maken en te houden. Omdat een persoonlijke kennismaking de beste start van een goede relatie vormt, nodigen we u van harte uit voor een vrijblijvende rondleiding met één van onze receptionistes.</p>
+
+<p> <b>Maak kennis met ons team:</b></p>
+<img src="tandarts1.jpg" width="300" height="200">
+<p> Annemiek Broek</p>
+<img src="tandarts2.jpg" width="300" height="200">
+<p> Jan van Zundert</p>
+<img src="tandarts3.jpg" width="300" height="200">
+<p> Bo Jansen</p>
+
+<p> <b>Maak kennis of maak een afspraak via onderstaand formulier:</b> </p>
+
+<form method="post" action="https://formspree.io/f/xaykrjyq">
+<fieldset>
+  <legend><b>Persoonlijke gegevens</b></legend>
+  <table width="600" border="0">
+  <tbody>
+  <tr>
+    <td width="300"><label for="aanhef">Aanhef</label></td>
+    <td>
+      <input type="radio" name="Aanhef" value="Heer">Heer
+      <input type="radio" name="Aanhef" value="Mevrouw">Mevrouw
+    </td>
+  </tr>
+  <tr>
+    <td><label for="Voornaam">Voornaam</label></td>
+    <td><input type="text" name="voornaam"</td>
+  </tr>
+  <tr>
+    <td><label for="achternaam">Achternaam</label></td>
+    <td><input type="text" name="achternaam"</td>
+  </tr>
+  <tr>
+    <td><label for="Adres">Adres</label></td>
+    <td><input type="text" name="straatnaam en huisnummer"</td>
+  </tr>
+  <tr>
+    <td><label for="Woonplaats">Woonplaats</label></td>
+    <td><input type="text" name="Woonplaats"</td>
+  </tr>
+  <tr>
+    <td><label for="Emailadres">Email</label></td>
+    <td><input type="email" name="emailadres"</td>
+  </tr>
+</tbody>
+</table>
+</fieldset>
+<fieldset>
+  <legend><b>Toelichting klachten</b></legend>
+  <table border="0">
+  <tbody>
+  <tr>
+    <td width="300"><label for="Selectie klachten">Selecteer welke klachten u heeft</label></td>
+    <td>
+      <input type="checkbox" naam="klachten keuze" value="ja">Tandsteen
+      <input type="checkbox" naam="klachten keuze" value="ja">Ontstoken tandvlees
+      <input type="checkbox" naam="klachten keuze" value="ja">Tand/kiespijn
+      <input type="checkbox" naam="klachten keuze" value="ja">Afgebroken tand
+      <input type="checkbox" naam="klachten keuze" value="ja">Vulling
+      <input type="checkbox" naam="klachten keuze" value="ja">Overig
+    </td>
+  </tr>
+  <tr>
+    <td><label for="Selecteer foto">Selecteer foto indien van toepassing</label></td>
+    <td>
+      <input type="file" name="document"></td>
+  </tr>
+  </tbody>
+</table>
+</fieldset>
+<fieldset>
+  <legend><b>Beschrijf uw klachten</b></legend>
+  <table border="0">
+  <tbody>
+  <tr>
+    <td width="300"><label for="Omschrijving klachten">Omschrijf uw klachten (max 1500 tekens)</label></td>
+    <td><textarea name="bericht"maxlenght="1500" rows="5" cols="40">
+    </textarea></td>
+  <tr>
+    <td><label for="Selectie datum">Selecteer uw gewenste datum afspraak</label></td>
+    <td><input type="date" name="datum" max="2023-12-31"</td>
+  </tr>
+</table>
+</fieldset>
+<br>
+<input type="submit" value="Verzend">
+  </form>
+</body>
+</html>
